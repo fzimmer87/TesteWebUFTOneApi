@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'',namePairs:[{nameInApp: 'excelGetEmprestimo!Emprestimo',nameInDataFile: 'DS_0'}]}]};

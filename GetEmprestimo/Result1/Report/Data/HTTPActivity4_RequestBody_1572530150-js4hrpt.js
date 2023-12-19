@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return '{\r\n  &#34;username&#34;: &#34;feZimmer&#34;,\r\n  &#34;password&#34;: &#34;1234&#34;\r\n}';}

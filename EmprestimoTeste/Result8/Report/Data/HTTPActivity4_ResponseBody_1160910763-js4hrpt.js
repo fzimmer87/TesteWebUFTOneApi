@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return '{&#34;timestamp&#34;:1702669877644,&#34;status&#34;:401,&#34;error&#34;:&#34;Unauthorized&#34;,&#34;message&#34;:&#34;No message available&#34;,&#34;path&#34;:&#34;/cars-app/api/loanApp&#34;}';}

@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return '[&#34;status: accepted&#34;]';}

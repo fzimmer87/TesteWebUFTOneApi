@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return 'GET http://localhost:3434/cars-app/carShop/cars 1.1\r\nHost: localhost:3434\r\n';}

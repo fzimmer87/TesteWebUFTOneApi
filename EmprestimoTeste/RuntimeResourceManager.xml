@@ -1,0 +1,3 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{excelForward!Emprestimo.TablePath}</Key><Path>Local</Path><Value>excelForward\MD_forwardCar_Api.xlsx</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>

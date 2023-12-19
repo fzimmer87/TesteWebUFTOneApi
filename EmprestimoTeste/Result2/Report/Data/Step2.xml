@@ -1,0 +1,2 @@
+<?xml-stylesheet href="..//DefaultActivityStylesheet.xsl" type="text/xsl"?><report><VTD_Type name="Type">HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence</VTD_Type><VTD_Name name="Step ID">Sequence5</VTD_Name><VTD_Message name="Message">O valor especificado possui caracteres de Cabeçalho HTTP inválidos.
+Nome do parâmetro: name</VTD_Message><Name name="Name">'Iteration 1'</Name><Comment name="Comment">''</Comment></report>

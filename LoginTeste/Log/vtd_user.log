@@ -1,0 +1,67 @@
+2023-12-19 11:43:33,613 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-12-19 11:43:33,627 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-12-19 11:43:33,628 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-12-19 11:43:33,628 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-12-19 11:43:33,628 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-12-19 11:43:33,628 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-12-19 11:43:33,948 [18] INFO  - Step 'Start' : Step 'Start' started
+2023-12-19 11:43:33,973 [18] INFO  - Step 'Start' ended successfully
+2023-12-19 11:43:33,974 [18] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2023-12-19 11:43:34,002 [18] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2023-12-19 11:43:34,004 [18] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
+2023-12-19 11:43:34,023 [18] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/api/login'
+2023-12-19 11:43:34,233 [18] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2023-12-19 11:43:34,236 [18] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2023-12-19 11:43:34,238 [18] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/api/login 1.1
+Content-Type: application/json
+Host: localhost:3434
+Content-Length: 52
+Connection: Keep-Alive
+{
+  "username": "luAlves",
+  "password": "1234"
+}
+
+2023-12-19 11:43:34,239 [18] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2023-12-19 11:43:34,255 [18] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+Pragma: no-cache
+Content-Length: 1157
+Cache-Control: no-store
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 19 Dec 2023 14:43:34 GMT
+Server: Apache-Coyote/1.1
+{"firstname":"Luciana","lastname":"Alves","username":"luAlves","token_type":"Bearer","access_token":"eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL1RvTkNGYWxBcFZicVFCZm9WamtTSFRNQlNpc2hDeEJwRmlxMXV0Z1BjM0MrTVwvY25KRXVWcVIwWVFMUklsZm9WK0NaMDZRZEFkT2pLek1vN0UzRG9nbnFUXC9lN24zN1wvbjAwdVlNQnJlcEpweFljSmN1SlRMME9TYXk5Umc3RFMzZzlBWjFBbmFBdkd1QUhab0FqY25xRUFRUVlVbkZwNUdPNnpIR29MSnRMSFczY0hZTnZzYUZwUk9SNHhibW1XNHJcL1J1ZU1jZEs0MzNCRXJxNEtnQ3RVMllZWEdzbkxTclNyYjZPZGVZYk1KME9ZdFV2T3RIejJLNlFXazVFMlljV2tQSnVnS1RDT3JNMlcxRnFoeU5oYWticzg1eTBXaWpiVVl3bVROanlOMFwvU2RyV1dcL2YzM3Fha0JIdndHYXI5UEtCRDNiM3kwTkR6aE10S0NFck5sVFR6SFptcGhHOXhMMDc4dzluajM0Y1wvaDUwS0FIWHkrdUZ2eXZtTEpSaWVmYng2V1JRZHhCYWVqMWt2WWMxK1RtNW1TdWIzR3IzeStZXC8xYnllWFh6ODhJbVdQZVB2XC8rNWhmSERVM1dGWlp6alN6YW14SFJMdGY5YzlFdnZRdytlMFdCbUdiWjdsQStxT2t4ZVJPb2lTbXVGV3R4RzNmRmg1dnJFV3RUNTEyYThPXC8xWVJiRkQwMEpQdWtTTzNYRlVhS2xuWHc5K2pYNGR3RlVhekFSSThKaDFUNmRBbGFkVmtYOVpmVGs5bjY5ejhIUllUUjcxeVwvQnM5MVBQOFNBd0FBIiwic3ViIjoibHVBbHZlcyIsInJvbGVzIjpbIlJPTEVfVVNFUiJdLCJleHAiOjE3MDMwMDA2MTQsImlhdCI6MTcwMjk5NzAxNH0.AukQhrR1G4yUv-OgNs4F2zq2_mh1JqIULG6u_cJbpJ8","roles":["ROLE_USER"]}
+2023-12-19 11:43:34,267 [18] INFO  - Checkpoint 0: "200" = "200" passed
+2023-12-19 11:43:34,271 [18] INFO  - Checkpoint 1: "luAlves" = "luAlves" passed
+2023-12-19 11:43:34,279 [18] INFO  - Step 'HTTP Request4' ended successfully
+2023-12-19 11:43:34,282 [18] INFO  - Step 'Iteration 1' ended successfully
+2023-12-19 11:43:34,286 [18] INFO  - Step 'Iteration 2' : Step 'Iteration 2' started
+2023-12-19 11:43:34,289 [18] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
+2023-12-19 11:43:34,291 [18] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/api/login'
+2023-12-19 11:43:34,479 [18] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2023-12-19 11:43:34,482 [18] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2023-12-19 11:43:34,484 [18] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/api/login 1.1
+Content-Type: application/json
+Host: localhost:3434
+Content-Length: 53
+{
+  "username": "feZimmer",
+  "password": "1234"
+}
+
+2023-12-19 11:43:34,486 [18] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2023-12-19 11:43:34,488 [18] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+Pragma: no-cache
+Content-Length: 1159
+Cache-Control: no-store
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 19 Dec 2023 14:43:34 GMT
+Server: Apache-Coyote/1.1
+{"firstname":"Fernanda","lastname":"Zimmer","username":"feZimmer","token_type":"Bearer","access_token":"eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL0RrR0FrUGhUcVpVNjBBVzZJVWRxeDB3RkJhVEtBa1RJa2twRkZcL3ZGUFRqZnVYZG5TSllxRXd3TUlDZ1NFbCtCYjlJdWZBQUVRMWRtVnQ2WmdBTUw2azMydTU5XC9cLzU0dmJtSFlhUGdjYThhRjhWT1J4Vno2SnRWY3hnYkRUSFBiOVRPRE9rS2JJNVp6WUlNbThIQzhFbmdCbEhoazRVMnd4WFpZUlRBWlYxWmJXeGphYWtmREo2WGpQbU5ic3dSM2xkNzJuN2hEcGZHWlFFSHRIWlZncEFuVExBeFZKdTJLa3JWT3lqVkdUWmdxWm9FS3Q5M29iVWczS0MxbndneENSMUN5bHNBb2dIR1cyUitLVkRrYUM1TVBaalBMUmFXT3RockFhTXFNSVhjdmt0U3RzKzd1blUxSkNYN0NMeWgzVW84T2RmZlJRWDNINHk4cUlTZzFWOUxNTldTaUl0N21UcHo0ZXpQSGw0Zm52VVlKZ0RxWmZcLzJiWXY1K0FYcFwvdnQ5OXlJdjJRZ3Z2QnF3WHNHb25KVGZUQmZPR1JxZDhkYloyY25xN1wvMjJJbEIxaTZmXC8zTWZlbDMxeDNVU1VwMDh5cWdSMFI3VzdaUFJQNXd1dmtqMXZvK25XZXBBTHBqNUlXb3llSmdwamlsclVTajMxYkdGdGZEV3FialhwdDNiMk50ckhKa3dRMTZVN2tzZDIrXC9FRFJ0ZzcrSGYwOW5MMG1qcTh3dk1ORWh0VDZWQUZheVpJVzZyMkwwNW54M3pjSGVZYitcL3p4MkQ3WHRCcnNUQXdBQSIsInN1YiI6ImZlWmltbWVyIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTcwMzAwMDYxNCwiaWF0IjoxNzAyOTk3MDE0fQ.nL-uID8iQ4GOSpOwHr11Qnhrp_EbjlOVQfJb5nVCC_E","roles":["ROLE_USER"]}
+2023-12-19 11:43:34,491 [18] INFO  - Checkpoint 0: "200" = "200" passed
+2023-12-19 11:43:34,493 [18] INFO  - Checkpoint 1: "feZimmer" = "feZimmer" passed
+2023-12-19 11:43:34,497 [18] INFO  - Step 'HTTP Request4' ended successfully
+2023-12-19 11:43:34,499 [18] INFO  - Step 'Iteration 2' ended successfully
+2023-12-19 11:43:34,504 [18] INFO  - Step 'Test Flow' ended successfully
+2023-12-19 11:43:34,775 [18] INFO  - Step 'End' : Step 'End' started
+2023-12-19 11:43:34,796 [18] INFO  - Step 'End' ended successfully

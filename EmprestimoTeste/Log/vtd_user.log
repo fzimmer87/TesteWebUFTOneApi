@@ -1,0 +1,165 @@
+2023-12-19 11:32:02,292 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-12-19 11:32:02,321 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-12-19 11:32:02,322 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-12-19 11:32:02,323 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-12-19 11:32:02,324 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-12-19 11:32:02,325 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-12-19 11:32:02,816 [18] INFO  - Step 'Start' : Step 'Start' started
+2023-12-19 11:32:02,845 [18] INFO  - Step 'Start' ended successfully
+2023-12-19 11:32:02,847 [18] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2023-12-19 11:32:03,730 [18] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2023-12-19 11:32:03,734 [18] INFO  - Step 'HTTP Request6' : Step 'HTTP Request6' started
+2023-12-19 11:32:03,808 [18] INFO  - Step 'HTTP Request6' : Fetching HTTP Url: 'http://localhost:3434/cars-app/api/login'
+2023-12-19 11:32:04,109 [18] INFO  - Step 'HTTP Request6' : Server returned status code: 200
+2023-12-19 11:32:04,111 [18] INFO  - Step 'HTTP Request6' : HTTP Raw request:
+2023-12-19 11:32:04,113 [18] INFO  - Step 'HTTP Request6' : POST http://localhost:3434/cars-app/api/login 1.1
+Content-Type: application/json
+Host: localhost:3434
+Content-Length: 53
+Connection: Keep-Alive
+{
+  "username": "zimmer12",
+  "password": "1234"
+}
+
+2023-12-19 11:32:04,115 [18] INFO  - Step 'HTTP Request6' : HTTP Raw response:
+2023-12-19 11:32:04,117 [18] INFO  - Step 'HTTP Request6' : HTTP/1.1 200 OK
+Pragma: no-cache
+Content-Length: 1171
+Cache-Control: no-store
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 19 Dec 2023 14:32:04 GMT
+Server: Apache-Coyote/1.1
+{"firstname":"Fernanda","lastname":"Zimmer","username":"zimmer12","token_type":"Bearer","access_token":"eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL1RoTUJRdUtmMUVvZDZGTFlrQ1BvbUFsUVdxbXlvQ0prQWFuVnhYNjRCK2M3OSs0TVNRZVVDUVlHVUFHcEVsK0JiOUl1ZkFBRUF5dHoxNzR6QVFjV3hFMzJ1NTlcL1wvNTdQYjZGaU5IeUlOZVBDK0tuSVlpNTlrMm91WTROaHBybnQrSmxCSGFITkVaOXlZSk1tY0hlOEVuZ0JsSGhrWVNMWVpOdXNLcGlNcTh1dFRReHRyYTFoVHVtNHg3aWhXWUk3U21cLzVEOXloMHZoSW9LRDJqa293c0FiakxBeFZKdTJTa3ZWMnlqVkdhekJXekFJVmJyblI2NUJ1VUZyT2hPbUhEcUJrTFlGUkFNTXNzOThWcVhJMEZrYnZ6R2FXaTJvRGJTMkF3WlFaUSs2ZUpHbFlaOTNkTzV1U0V2eUFYU2kzVTQ4T2RUZnRvTDdqOFJlVkVKU2FLMm1tbWpKUkVkXC9nVHB6NHU1T1wvTGc3UHVzMFNBSFV5OFwvdzN4Znp0QW5UXC9mUDMzTGlcL2FDeTI4NmJOZXdHcnRsTnlNRjh5ckdwM3k1ZTh2eDZlMysrdXZTTmtoUHI1OEgxUHp2ZVk2aXlwSm1XWlc5ZTJJYUhmSzdwbklGNTRudjk5Q3gyXC93SkJWSWY1UzBHRDFJRk1RVXQ2eVZ1T1wvYnd0REtjbERcLzFtelVWOXpiNEUrZUpLaG41MGgzSklcL3Q5dVVIaXJaMWNIUDA5XC9EOUZYRjhoc28yRXhsUzYyTUZhQ2xMV3FqM3prOG5oMCt1RFwvSU12Zis1OGg5TmRQdDZFd01BQUE9PSIsInN1YiI6InppbW1lcjEyIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTcwMjk5OTkyNCwiaWF0IjoxNzAyOTk2MzI0fQ.HDbuQqDdYqY26lqRfnw05n177FE-7mgkNeT4YOMo_B8","roles":["ROLE_USER"]}
+2023-12-19 11:32:04,134 [18] INFO  - Checkpoint 0: "200" = "200" passed
+2023-12-19 11:32:04,141 [18] INFO  - Checkpoint 1: "Fernanda" = "Fernanda" passed
+2023-12-19 11:32:04,143 [18] INFO  - Checkpoint 2: "Zimmer" = "Zimmer" passed
+2023-12-19 11:32:04,146 [18] INFO  - Checkpoint 3: "zimmer12" = "zimmer12" passed
+2023-12-19 11:32:04,157 [18] INFO  - Step 'HTTP Request6' ended successfully
+2023-12-19 11:32:04,160 [18] INFO  - Step 'Set OS Environment Variable7' : Step 'Set OS Environment Variable7' started
+2023-12-19 11:32:04,170 [18] INFO  - Step 'Set OS Environment Variable7' : Input Parameter 'Variable name', Value: 'Token'
+2023-12-19 11:32:04,174 [18] INFO  - Step 'Set OS Environment Variable7' : Input Parameter 'Variable value', Value: 'eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL1RoTUJRdUtmMUVvZDZGTFlrQ1BvbUFsUVdxbXlvQ0prQWFuVnhYNjRCK2M3OSs0TVNRZVVDUVlHVUFHcEVsK0JiOUl1ZkFBRUF5dHoxNzR6QVFjV3hFMzJ1NTlcL1wvNTdQYjZGaU5IeUlOZVBDK0tuSVlpNTlrMm91WTROaHBybnQrSmxCSGFITkVaOXlZSk1tY0hlOEVuZ0JsSGhrWVNMWVpOdXNLcGlNcTh1dFRReHRyYTFoVHVtNHg3aWhXWUk3U21cLzVEOXloMHZoSW9LRDJqa293c0FiakxBeFZKdTJTa3ZWMnlqVkdhekJXekFJVmJyblI2NUJ1VUZyT2hPbUhEcUJrTFlGUkFNTXNzOThWcVhJMEZrYnZ6R2FXaTJvRGJTMkF3WlFaUSs2ZUpHbFlaOTNkTzV1U0V2eUFYU2kzVTQ4T2RUZnRvTDdqOFJlVkVKU2FLMm1tbWpKUkVkXC9nVHB6NHU1T1wvTGc3UHVzMFNBSFV5OFwvdzN4Znp0QW5UXC9mUDMzTGlcL2FDeTI4NmJOZXdHcnRsTnlNRjh5ckdwM3k1ZTh2eDZlMysrdXZTTmtoUHI1OEgxUHp2ZVk2aXlwSm1XWlc5ZTJJYUhmSzdwbklGNTRudjk5Q3gyXC93SkJWSWY1UzBHRDFJRk1RVXQ2eVZ1T1wvYnd0REtjbERcLzFtelVWOXpiNEUrZUpLaG41MGgzSklcL3Q5dVVIaXJaMWNIUDA5XC9EOUZYRjhoc28yRXhsUzYyTUZhQ2xMV3FqM3prOG5oMCt1RFwvSU12Zis1OGg5TmRQdDZFd01BQUE9PSIsInN1YiI6InppbW1lcjEyIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTcwMjk5OTkyNCwiaWF0IjoxNzAyOTk2MzI0fQ.HDbuQqDdYqY26lqRfnw05n177FE-7mgkNeT4YOMo_B8'
+2023-12-19 11:32:04,178 [18] INFO  - Step 'Set OS Environment Variable7' ended successfully
+2023-12-19 11:32:04,179 [18] INFO  - Step 'Concatenate Strings8' : Step 'Concatenate Strings8' started
+2023-12-19 11:32:04,183 [18] INFO  - Step 'Concatenate Strings8' : Input Parameter 'Prefix', Value: ' Bearer '
+2023-12-19 11:32:04,185 [18] INFO  - Step 'Concatenate Strings8' : Input Parameter 'Suffix', Value: 'eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL1RoTUJRdUtmMUVvZDZGTFlrQ1BvbUFsUVdxbXlvQ0prQWFuVnhYNjRCK2M3OSs0TVNRZVVDUVlHVUFHcEVsK0JiOUl1ZkFBRUF5dHoxNzR6QVFjV3hFMzJ1NTlcL1wvNTdQYjZGaU5IeUlOZVBDK0tuSVlpNTlrMm91WTROaHBybnQrSmxCSGFITkVaOXlZSk1tY0hlOEVuZ0JsSGhrWVNMWVpOdXNLcGlNcTh1dFRReHRyYTFoVHVtNHg3aWhXWUk3U21cLzVEOXloMHZoSW9LRDJqa293c0FiakxBeFZKdTJTa3ZWMnlqVkdhekJXekFJVmJyblI2NUJ1VUZyT2hPbUhEcUJrTFlGUkFNTXNzOThWcVhJMEZrYnZ6R2FXaTJvRGJTMkF3WlFaUSs2ZUpHbFlaOTNkTzV1U0V2eUFYU2kzVTQ4T2RUZnRvTDdqOFJlVkVKU2FLMm1tbWpKUkVkXC9nVHB6NHU1T1wvTGc3UHVzMFNBSFV5OFwvdzN4Znp0QW5UXC9mUDMzTGlcL2FDeTI4NmJOZXdHcnRsTnlNRjh5ckdwM3k1ZTh2eDZlMysrdXZTTmtoUHI1OEgxUHp2ZVk2aXlwSm1XWlc5ZTJJYUhmSzdwbklGNTRudjk5Q3gyXC93SkJWSWY1UzBHRDFJRk1RVXQ2eVZ1T1wvYnd0REtjbERcLzFtelVWOXpiNEUrZUpLaG41MGgzSklcL3Q5dVVIaXJaMWNIUDA5XC9EOUZYRjhoc28yRXhsUzYyTUZhQ2xMV3FqM3prOG5oMCt1RFwvSU12Zis1OGg5TmRQdDZFd01BQUE9PSIsInN1YiI6InppbW1lcjEyIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTcwMjk5OTkyNCwiaWF0IjoxNzAyOTk2MzI0fQ.HDbuQqDdYqY26lqRfnw05n177FE-7mgkNeT4YOMo_B8'
+2023-12-19 11:32:04,187 [18] INFO  - Step 'Concatenate Strings8' : Output Parameter 'Result', Value: ' Bearer eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL1RoTUJRdUtmMUVvZDZGTFlrQ1BvbUFsUVdxbXlvQ0prQWFuVnhYNjRCK2M3OSs0TVNRZVVDUVlHVUFHcEVsK0JiOUl1ZkFBRUF5dHoxNzR6QVFjV3hFMzJ1NTlcL1wvNTdQYjZGaU5IeUlOZVBDK0tuSVlpNTlrMm91WTROaHBybnQrSmxCSGFITkVaOXlZSk1tY0hlOEVuZ0JsSGhrWVNMWVpOdXNLcGlNcTh1dFRReHRyYTFoVHVtNHg3aWhXWUk3U21cLzVEOXloMHZoSW9LRDJqa293c0FiakxBeFZKdTJTa3ZWMnlqVkdhekJXekFJVmJyblI2NUJ1VUZyT2hPbUhEcUJrTFlGUkFNTXNzOThWcVhJMEZrYnZ6R2FXaTJvRGJTMkF3WlFaUSs2ZUpHbFlaOTNkTzV1U0V2eUFYU2kzVTQ4T2RUZnRvTDdqOFJlVkVKU2FLMm1tbWpKUkVkXC9nVHB6NHU1T1wvTGc3UHVzMFNBSFV5OFwvdzN4Znp0QW5UXC9mUDMzTGlcL2FDeTI4NmJOZXdHcnRsTnlNRjh5ckdwM3k1ZTh2eDZlMysrdXZTTmtoUHI1OEgxUHp2ZVk2aXlwSm1XWlc5ZTJJYUhmSzdwbklGNTRudjk5Q3gyXC93SkJWSWY1UzBHRDFJRk1RVXQ2eVZ1T1wvYnd0REtjbERcLzFtelVWOXpiNEUrZUpLaG41MGgzSklcL3Q5dVVIaXJaMWNIUDA5XC9EOUZYRjhoc28yRXhsUzYyTUZhQ2xMV3FqM3prOG5oMCt1RFwvSU12Zis1OGg5TmRQdDZFd01BQUE9PSIsInN1YiI6InppbW1lcjEyIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTcwMjk5OTkyNCwiaWF0IjoxNzAyOTk2MzI0fQ.HDbuQqDdYqY26lqRfnw05n177FE-7mgkNeT4YOMo_B8'
+2023-12-19 11:32:04,190 [18] INFO  - Step 'Concatenate Strings8' ended successfully
+2023-12-19 11:32:04,190 [18] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
+2023-12-19 11:32:04,195 [18] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/api/loanApp'
+2023-12-19 11:32:04,258 [18] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2023-12-19 11:32:04,262 [18] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2023-12-19 11:32:04,264 [18] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/api/loanApp 1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL1RoTUJRdUtmMUVvZDZGTFlrQ1BvbUFsUVdxbXlvQ0prQWFuVnhYNjRCK2M3OSs0TVNRZVVDUVlHVUFHcEVsK0JiOUl1ZkFBRUF5dHoxNzR6QVFjV3hFMzJ1NTlcL1wvNTdQYjZGaU5IeUlOZVBDK0tuSVlpNTlrMm91WTROaHBybnQrSmxCSGFITkVaOXlZSk1tY0hlOEVuZ0JsSGhrWVNMWVpOdXNLcGlNcTh1dFRReHRyYTFoVHVtNHg3aWhXWUk3U21cLzVEOXloMHZoSW9LRDJqa293c0FiakxBeFZKdTJTa3ZWMnlqVkdhekJXekFJVmJyblI2NUJ1VUZyT2hPbUhEcUJrTFlGUkFNTXNzOThWcVhJMEZrYnZ6R2FXaTJvRGJTMkF3WlFaUSs2ZUpHbFlaOTNkTzV1U0V2eUFYU2kzVTQ4T2RUZnRvTDdqOFJlVkVKU2FLMm1tbWpKUkVkXC9nVHB6NHU1T1wvTGc3UHVzMFNBSFV5OFwvdzN4Znp0QW5UXC9mUDMzTGlcL2FDeTI4NmJOZXdHcnRsTnlNRjh5ckdwM3k1ZTh2eDZlMysrdXZTTmtoUHI1OEgxUHp2ZVk2aXlwSm1XWlc5ZTJJYUhmSzdwbklGNTRudjk5Q3gyXC93SkJWSWY1UzBHRDFJRk1RVXQ2eVZ1T1wvYnd0REtjbERcLzFtelVWOXpiNEUrZUpLaG41MGgzSklcL3Q5dVVIaXJaMWNIUDA5XC9EOUZYRjhoc28yRXhsUzYyTUZhQ2xMV3FqM3prOG5oMCt1RFwvSU12Zis1OGg5TmRQdDZFd01BQUE9PSIsInN1YiI6InppbW1lcjEyIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImV4cCI6MTcwMjk5OTkyNCwiaWF0IjoxNzAyOTk2MzI0fQ.HDbuQqDdYqY26lqRfnw05n177FE-7mgkNeT4YOMo_B8
+Host: localhost:3434
+Content-Length: 409
+{
+  "firstName": "Luciana",
+  "lastName": "Alves",
+  "address1": "123 Av guaru",
+  "city": "Guarulhos",
+  "state": "SP",
+  "zip": "321",
+  "country": "BR",
+  "dob": "02/02/2023 00:00:00",
+  "ssn": "222-33-4444",
+  "employer": "Teste123 LTDA",
+  "phoneNumber": "123-456-7890",
+  "durationOfJob": "4 Years",
+  "income": 4321,
+  "loanTerm": 5,
+  "loanAmount": 37010,
+  "validateAddress": false
+}
+
+2023-12-19 11:32:04,266 [18] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2023-12-19 11:32:04,268 [18] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+X-Application-Context: application:production:3434
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 19 Dec 2023 14:32:04 GMT
+Server: Apache-Coyote/1.1
+["status: accepted"]
+2023-12-19 11:32:04,285 [18] INFO  - Checkpoint 4: "200" = "200" passed
+2023-12-19 11:32:04,293 [18] INFO  - Step 'HTTP Request4' ended successfully
+2023-12-19 11:32:04,297 [18] INFO  - Step 'Iteration 1' ended successfully
+2023-12-19 11:32:04,306 [18] INFO  - Step 'Iteration 2' : Step 'Iteration 2' started
+2023-12-19 11:32:04,309 [18] INFO  - Step 'HTTP Request6' : Step 'HTTP Request6' started
+2023-12-19 11:32:04,313 [18] INFO  - Step 'HTTP Request6' : Fetching HTTP Url: 'http://localhost:3434/cars-app/api/login'
+2023-12-19 11:32:04,512 [18] INFO  - Step 'HTTP Request6' : Server returned status code: 200
+2023-12-19 11:32:04,515 [18] INFO  - Step 'HTTP Request6' : HTTP Raw request:
+2023-12-19 11:32:04,516 [18] INFO  - Step 'HTTP Request6' : POST http://localhost:3434/cars-app/api/login 1.1
+Content-Type: application/json
+Host: localhost:3434
+Content-Length: 52
+{
+  "username": "alves12",
+  "password": "1234"
+}
+
+2023-12-19 11:32:04,519 [18] INFO  - Step 'HTTP Request6' : HTTP Raw response:
+2023-12-19 11:32:04,522 [18] INFO  - Step 'HTTP Request6' : HTTP/1.1 200 OK
+Pragma: no-cache
+Content-Length: 1158
+Cache-Control: no-store
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 19 Dec 2023 14:32:04 GMT
+Server: Apache-Coyote/1.1
+{"firstname":"Luciana","lastname":"Alves","username":"alves12","token_type":"Bearer","access_token":"eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL0RrRXBRdUpQcFZicVFKZkNoaHdCWTZhQzBrcVZCUlVoQzBoVUZcL3RoRHM1Mzd0MDVKRXVWcVF3TUlGb2tKTDRDMzZRc2ZBQUVBeXN6YTkrWmdOTXVpSnZzZHpcL1wvXC9qMmYzOEd3MGJBUWE4YUY4Vk9SeFZ6Nkp0VmN4Z2JEVEhQYjlUT0RPa0tiSXo3bndDWk40T0Y0SmZBQ0tQSEl3dXRnaDdWWlZUQVpWMWRhT3hqYVdrZkR2Tkp4bjNGTHN3VDNsTjcxbjdoRHBmRWZnWUxhT3lwQlpSMG1XUmlxVE5wbEpldWRsR3VNMW1HaW1BVXEzSFdqTnlIZG9MU2NDVE1JcmFCa0xZRlJBS01zczl1S1ZEa2FDK01QWmpQTFJiV0J0aGJBcTVRWlErNytTOUt3enJxN2R6WWxKZmdPUDZEY1NUMDYxTjJNZ1wvcU94MTlTUWxCcXJxU1pic3BFUlh5TE8zSGk3MDBkWHg2ZTlab2xBT3BrOXZsdml2bTdSZWo5MmJ4XC9ueGZ0aFJiZURsZ3ZZTFZPU200bUMrWTFqVTc1NnZUcnI1TzdcL1kwaFVuYUlUeVwvZnhcL1RIZm5QZEpaV2tURE9yQm5aRXRIdGw5MHpraTgrVFAyNmg2emQ0a2dxa1AwcGFqSjRrQ21LS1c5WktQUFp0WVdSMUphaFwvYXpicXErNnR3a1FiemR3OHlZN2xxZDI2XC9FRFJzZzV1ank0T1Axd1R4UmNZYmpPUklaVStVWUNXczZTRit1ZjV5ZFRvNzV1RFBFTFwvZDY3OEJXOEtEMGtTQXdBQSIsInN1YiI6ImFsdmVzMTIiLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwiZXhwIjoxNzAyOTk5OTI0LCJpYXQiOjE3MDI5OTYzMjR9.hWQ2WtBOJQbruyBTOEbtqOCg3k_XK1_Dc6_7BtXklOg","roles":["ROLE_USER"]}
+2023-12-19 11:32:04,525 [18] INFO  - Checkpoint 0: "200" = "200" passed
+2023-12-19 11:32:04,527 [18] INFO  - Checkpoint 1: "Luciana" = "Luciana" passed
+2023-12-19 11:32:04,530 [18] INFO  - Checkpoint 2: "Alves" = "Alves" passed
+2023-12-19 11:32:04,532 [18] INFO  - Checkpoint 3: "alves12" = "alves12" passed
+2023-12-19 11:32:04,535 [18] INFO  - Step 'HTTP Request6' ended successfully
+2023-12-19 11:32:04,538 [18] INFO  - Step 'Set OS Environment Variable7' : Step 'Set OS Environment Variable7' started
+2023-12-19 11:32:04,542 [18] INFO  - Step 'Set OS Environment Variable7' : Input Parameter 'Variable name', Value: 'Token'
+2023-12-19 11:32:04,545 [18] INFO  - Step 'Set OS Environment Variable7' : Input Parameter 'Variable value', Value: 'eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL0RrRXBRdUpQcFZicVFKZkNoaHdCWTZhQzBrcVZCUlVoQzBoVUZcL3RoRHM1Mzd0MDVKRXVWcVF3TUlGb2tKTDRDMzZRc2ZBQUVBeXN6YTkrWmdOTXVpSnZzZHpcL1wvXC9qMmYzOEd3MGJBUWE4YUY4Vk9SeFZ6Nkp0VmN4Z2JEVEhQYjlUT0RPa0tiSXo3bndDWk40T0Y0SmZBQ0tQSEl3dXRnaDdWWlZUQVpWMWRhT3hqYVdrZkR2Tkp4bjNGTHN3VDNsTjcxbjdoRHBmRWZnWUxhT3lwQlpSMG1XUmlxVE5wbEpldWRsR3VNMW1HaW1BVXEzSFdqTnlIZG9MU2NDVE1JcmFCa0xZRlJBS01zczl1S1ZEa2FDK01QWmpQTFJiV0J0aGJBcTVRWlErNytTOUt3enJxN2R6WWxKZmdPUDZEY1NUMDYxTjJNZ1wvcU94MTlTUWxCcXJxU1pic3BFUlh5TE8zSGk3MDBkWHg2ZTlab2xBT3BrOXZsdml2bTdSZWo5MmJ4XC9ueGZ0aFJiZURsZ3ZZTFZPU200bUMrWTFqVTc1NnZUcnI1TzdcL1kwaFVuYUlUeVwvZnhcL1RIZm5QZEpaV2tURE9yQm5aRXRIdGw5MHpraTgrVFAyNmg2emQ0a2dxa1AwcGFqSjRrQ21LS1c5WktQUFp0WVdSMUphaFwvYXpicXErNnR3a1FiemR3OHlZN2xxZDI2XC9FRFJzZzV1ank0T1Axd1R4UmNZYmpPUklaVStVWUNXczZTRit1ZjV5ZFRvNzV1RFBFTFwvZDY3OEJXOEtEMGtTQXdBQSIsInN1YiI6ImFsdmVzMTIiLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwiZXhwIjoxNzAyOTk5OTI0LCJpYXQiOjE3MDI5OTYzMjR9.hWQ2WtBOJQbruyBTOEbtqOCg3k_XK1_Dc6_7BtXklOg'
+2023-12-19 11:32:04,549 [18] INFO  - Step 'Set OS Environment Variable7' ended successfully
+2023-12-19 11:32:04,551 [18] INFO  - Step 'Concatenate Strings8' : Step 'Concatenate Strings8' started
+2023-12-19 11:32:04,555 [18] INFO  - Step 'Concatenate Strings8' : Input Parameter 'Prefix', Value: ' Bearer '
+2023-12-19 11:32:04,557 [18] INFO  - Step 'Concatenate Strings8' : Input Parameter 'Suffix', Value: 'eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL0RrRXBRdUpQcFZicVFKZkNoaHdCWTZhQzBrcVZCUlVoQzBoVUZcL3RoRHM1Mzd0MDVKRXVWcVF3TUlGb2tKTDRDMzZRc2ZBQUVBeXN6YTkrWmdOTXVpSnZzZHpcL1wvXC9qMmYzOEd3MGJBUWE4YUY4Vk9SeFZ6Nkp0VmN4Z2JEVEhQYjlUT0RPa0tiSXo3bndDWk40T0Y0SmZBQ0tQSEl3dXRnaDdWWlZUQVpWMWRhT3hqYVdrZkR2Tkp4bjNGTHN3VDNsTjcxbjdoRHBmRWZnWUxhT3lwQlpSMG1XUmlxVE5wbEpldWRsR3VNMW1HaW1BVXEzSFdqTnlIZG9MU2NDVE1JcmFCa0xZRlJBS01zczl1S1ZEa2FDK01QWmpQTFJiV0J0aGJBcTVRWlErNytTOUt3enJxN2R6WWxKZmdPUDZEY1NUMDYxTjJNZ1wvcU94MTlTUWxCcXJxU1pic3BFUlh5TE8zSGk3MDBkWHg2ZTlab2xBT3BrOXZsdml2bTdSZWo5MmJ4XC9ueGZ0aFJiZURsZ3ZZTFZPU200bUMrWTFqVTc1NnZUcnI1TzdcL1kwaFVuYUlUeVwvZnhcL1RIZm5QZEpaV2tURE9yQm5aRXRIdGw5MHpraTgrVFAyNmg2emQ0a2dxa1AwcGFqSjRrQ21LS1c5WktQUFp0WVdSMUphaFwvYXpicXErNnR3a1FiemR3OHlZN2xxZDI2XC9FRFJzZzV1ank0T1Axd1R4UmNZYmpPUklaVStVWUNXczZTRit1ZjV5ZFRvNzV1RFBFTFwvZDY3OEJXOEtEMGtTQXdBQSIsInN1YiI6ImFsdmVzMTIiLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwiZXhwIjoxNzAyOTk5OTI0LCJpYXQiOjE3MDI5OTYzMjR9.hWQ2WtBOJQbruyBTOEbtqOCg3k_XK1_Dc6_7BtXklOg'
+2023-12-19 11:32:04,559 [18] INFO  - Step 'Concatenate Strings8' : Output Parameter 'Result', Value: ' Bearer eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL0RrRXBRdUpQcFZicVFKZkNoaHdCWTZhQzBrcVZCUlVoQzBoVUZcL3RoRHM1Mzd0MDVKRXVWcVF3TUlGb2tKTDRDMzZRc2ZBQUVBeXN6YTkrWmdOTXVpSnZzZHpcL1wvXC9qMmYzOEd3MGJBUWE4YUY4Vk9SeFZ6Nkp0VmN4Z2JEVEhQYjlUT0RPa0tiSXo3bndDWk40T0Y0SmZBQ0tQSEl3dXRnaDdWWlZUQVpWMWRhT3hqYVdrZkR2Tkp4bjNGTHN3VDNsTjcxbjdoRHBmRWZnWUxhT3lwQlpSMG1XUmlxVE5wbEpldWRsR3VNMW1HaW1BVXEzSFdqTnlIZG9MU2NDVE1JcmFCa0xZRlJBS01zczl1S1ZEa2FDK01QWmpQTFJiV0J0aGJBcTVRWlErNytTOUt3enJxN2R6WWxKZmdPUDZEY1NUMDYxTjJNZ1wvcU94MTlTUWxCcXJxU1pic3BFUlh5TE8zSGk3MDBkWHg2ZTlab2xBT3BrOXZsdml2bTdSZWo5MmJ4XC9ueGZ0aFJiZURsZ3ZZTFZPU200bUMrWTFqVTc1NnZUcnI1TzdcL1kwaFVuYUlUeVwvZnhcL1RIZm5QZEpaV2tURE9yQm5aRXRIdGw5MHpraTgrVFAyNmg2emQ0a2dxa1AwcGFqSjRrQ21LS1c5WktQUFp0WVdSMUphaFwvYXpicXErNnR3a1FiemR3OHlZN2xxZDI2XC9FRFJzZzV1ank0T1Axd1R4UmNZYmpPUklaVStVWUNXczZTRit1ZjV5ZFRvNzV1RFBFTFwvZDY3OEJXOEtEMGtTQXdBQSIsInN1YiI6ImFsdmVzMTIiLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwiZXhwIjoxNzAyOTk5OTI0LCJpYXQiOjE3MDI5OTYzMjR9.hWQ2WtBOJQbruyBTOEbtqOCg3k_XK1_Dc6_7BtXklOg'
+2023-12-19 11:32:04,564 [18] INFO  - Step 'Concatenate Strings8' ended successfully
+2023-12-19 11:32:04,567 [18] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
+2023-12-19 11:32:04,575 [18] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/api/loanApp'
+2023-12-19 11:32:04,624 [18] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2023-12-19 11:32:04,627 [18] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2023-12-19 11:32:04,630 [18] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/api/loanApp 1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJwcmluY2lwYWwiOiJINHNJQUFBQUFBQUFBSlZTUDBcL2JRQlJcL0RrRXBRdUpQcFZicVFKZkNoaHdCWTZhQzBrcVZCUlVoQzBoVUZcL3RoRHM1Mzd0MDVKRXVWcVF3TUlGb2tKTDRDMzZRc2ZBQUVBeXN6YTkrWmdOTXVpSnZzZHpcL1wvXC9qMmYzOEd3MGJBUWE4YUY4Vk9SeFZ6Nkp0VmN4Z2JEVEhQYjlUT0RPa0tiSXo3bndDWk40T0Y0SmZBQ0tQSEl3dXRnaDdWWlZUQVpWMWRhT3hqYVdrZkR2Tkp4bjNGTHN3VDNsTjcxbjdoRHBmRWZnWUxhT3lwQlpSMG1XUmlxVE5wbEpldWRsR3VNMW1HaW1BVXEzSFdqTnlIZG9MU2NDVE1JcmFCa0xZRlJBS01zczl1S1ZEa2FDK01QWmpQTFJiV0J0aGJBcTVRWlErNytTOUt3enJxN2R6WWxKZmdPUDZEY1NUMDYxTjJNZ1wvcU94MTlTUWxCcXJxU1pic3BFUlh5TE8zSGk3MDBkWHg2ZTlab2xBT3BrOXZsdml2bTdSZWo5MmJ4XC9ueGZ0aFJiZURsZ3ZZTFZPU200bUMrWTFqVTc1NnZUcnI1TzdcL1kwaFVuYUlUeVwvZnhcL1RIZm5QZEpaV2tURE9yQm5aRXRIdGw5MHpraTgrVFAyNmg2emQ0a2dxa1AwcGFqSjRrQ21LS1c5WktQUFp0WVdSMUphaFwvYXpicXErNnR3a1FiemR3OHlZN2xxZDI2XC9FRFJzZzV1ank0T1Axd1R4UmNZYmpPUklaVStVWUNXczZTRit1ZjV5ZFRvNzV1RFBFTFwvZDY3OEJXOEtEMGtTQXdBQSIsInN1YiI6ImFsdmVzMTIiLCJyb2xlcyI6WyJST0xFX1VTRVIiXSwiZXhwIjoxNzAyOTk5OTI0LCJpYXQiOjE3MDI5OTYzMjR9.hWQ2WtBOJQbruyBTOEbtqOCg3k_XK1_Dc6_7BtXklOg
+Host: localhost:3434
+Content-Length: 412
+{
+  "firstName": "Fernanda",
+  "lastName": "Zimmer",
+  "address1": "456 Av teste",
+  "city": "São Paulo",
+  "state": "SP",
+  "zip": "123",
+  "country": "BR",
+  "dob": "03/03/2024 00:00:00",
+  "ssn": "111-22-3333",
+  "employer": "Teste321 ABC",
+  "phoneNumber": "123-456-7890",
+  "durationOfJob": "4 Years",
+  "income": 12345,
+  "loanTerm": 4,
+  "loanAmount": 54324,
+  "validateAddress": false
+}
+
+2023-12-19 11:32:04,633 [18] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2023-12-19 11:32:04,636 [18] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+X-Application-Context: application:production:3434
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 19 Dec 2023 14:32:04 GMT
+Server: Apache-Coyote/1.1
+["status: accepted"]
+2023-12-19 11:32:04,638 [18] INFO  - Checkpoint 4: "200" = "200" passed
+2023-12-19 11:32:04,641 [18] INFO  - Step 'HTTP Request4' ended successfully
+2023-12-19 11:32:04,644 [18] INFO  - Step 'Iteration 2' ended successfully
+2023-12-19 11:32:04,648 [18] INFO  - Step 'Test Flow' ended successfully
+2023-12-19 11:32:06,683 [18] INFO  - Step 'End' : Step 'End' started
+2023-12-19 11:32:06,700 [18] INFO  - Step 'End' ended successfully

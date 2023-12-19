@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return 'Couldn&#39;t Get Property: XMLResponse, with XPath: /*[local-name(.)=&#39;Array&#39;][1]/*[local-name(.)=&#39;Value&#39;][1]';}
