@@ -47,7 +47,7 @@ namespace Script
             CpValObj valueActualObject2 = new CpValObj(actualBindDirection2, XmlTypeCode.String, false);
 
 
-            CpValObj valueExpectedObject2 = new CpValObj("{DataSource.Login.USERNAME}", bind_dir185);
+            CpValObj valueExpectedObject2 = new CpValObj("{DataSource.Login.USERNAME}", bind_dir131);
             ValueCPRule cpRule2 = new ValueCPRule(valueActualObject2, valueExpectedObject2, StringCP.EqualTo, "=", false);
             activity.AddCheckpointRule(cpRule2);
 

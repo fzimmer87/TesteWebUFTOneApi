@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Start</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step0.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>criaCarros</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>criaCarros</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-9</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>criaCarros</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-9</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-9</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step1.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request4</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:21</StartTime>
+    <Duration>9</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step1.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>criaCarros</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request5</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:30</StartTime>
+    <Duration>9</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step3.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>criaCarros</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>criaCarros</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 1</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:21</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>13ed1865e30b4a4c8e114a882f7d5461</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2023-12-20 14:53:21</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>6c66c7fced354a2698bff05c3b2139ba</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>criaCarros</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>criaCarros</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>criaCarros</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step6.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request4</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:31</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step7.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step7.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step6.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>criaCarros</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step8.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step8.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request5</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:31</StartTime>
+    <Duration>8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step9.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step9.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step8.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step8.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>criaCarros</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>criaCarros</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 14:53:39</StartTime>
+    <Duration>-8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 2</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:31</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step10.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step10.js</HtmlBottomFilePath>
+      <IconKey>13ed1865e30b4a4c8e114a882f7d5461</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2023-12-20 14:53:31</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step10.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step10.js</HtmlBottomFilePath>
+      <IconKey>6c66c7fced354a2698bff05c3b2139ba</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Test Flow</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:20</StartTime>
+    <Duration>16</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step11.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step11.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>End</Name>
+    <Description />
+    <StartTime>2023-12-20 14:53:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step12.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step12.js</HtmlBottomFilePath>
+      <IconKey>6b3e8a9695a740d2aac25e878786718f</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>CriacaoCarroGet</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2023-12-20 14:53:20</StartTime>
+    <Duration>19</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>60def3b4e67a479eba353af3e79ff105</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-03:00:00</Timezone>
+      <Locale>português (Brasil)</Locale>
+      <User>Fernanda Zimmer</User>
+      <CpuInfo>Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>8072</TotalMemory>
+      <HostName>BN533771011</HostName>
+      <OSInfo>Windows 11 22H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Result9</ResultName>
+    <RunStartTime>2023-12-20 14:53:20</RunStartTime>
+    <Timezone>-03:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

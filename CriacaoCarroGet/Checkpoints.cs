@@ -38,7 +38,7 @@ namespace Script
             CpValObj valueActualObject1 = new CpValObj(actualBindDirection1, XmlTypeCode.String, false);
 
 
-            CpValObj valueExpectedObject1 = new CpValObj("{DataSource.criaCarros.vin}", bind_dir611);
+            CpValObj valueExpectedObject1 = new CpValObj("{DataSource.criaCarros.vin}", bind_dir35);
             ValueCPRule cpRule1 = new ValueCPRule(valueActualObject1, valueExpectedObject1, StringCP.EqualTo, "=", false);
             activity.AddCheckpointRule(cpRule1);
 
@@ -89,7 +89,7 @@ namespace Script
             CpValObj valueActualObject1 = new CpValObj(actualBindDirection1, XmlTypeCode.String, false);
 
 
-            CpValObj valueExpectedObject1 = new CpValObj("{DataSource.criaCarros.vin}", bind_dir612);
+            CpValObj valueExpectedObject1 = new CpValObj("{DataSource.criaCarros.vin}", bind_dir36);
             ValueCPRule cpRule1 = new ValueCPRule(valueActualObject1, valueExpectedObject1, StringCP.Contains, "Contains", false);
             activity.AddCheckpointRule(cpRule1);
 

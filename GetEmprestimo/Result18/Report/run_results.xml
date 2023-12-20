@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Start</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step0.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step1.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request4</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:12</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step1.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Set OS Environment Variable5</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Concatenate Strings6</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request8</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:12</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step6.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step5.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step7.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step7.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request7</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:12</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step8.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step8.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step7.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step7.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>1</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 1</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:12</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step9.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step9.js</HtmlBottomFilePath>
+      <IconKey>f841ed38a81b4def86568c0f25315f4d</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2023-12-20 15:07:12</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step9.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step9.js</HtmlBottomFilePath>
+      <IconKey>b33c372a54234754838c0d984550d4cb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step10.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step10.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request4</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step11.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step11.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step10.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step10.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Set OS Environment Variable5</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step12.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step12.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Concatenate Strings6</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step13.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step13.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step14.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step14.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request8</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step15.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step15.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step14.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step14.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step16.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step16.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HTTP Request7</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:13</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step17.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step17.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step16.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step16.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>excelGetEmprestimo!Emprestimo</Name>
+    <Description>2</Description>
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Duration>-3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 2</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step18.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step18.js</HtmlBottomFilePath>
+      <IconKey>f841ed38a81b4def86568c0f25315f4d</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2023-12-20 15:07:13</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step18.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step18.js</HtmlBottomFilePath>
+      <IconKey>b33c372a54234754838c0d984550d4cb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Test Flow</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:11</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step19.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step19.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>End</Name>
+    <Description />
+    <StartTime>2023-12-20 15:07:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step20.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step20.js</HtmlBottomFilePath>
+      <IconKey>48827af1d7bd40c7860513b2e6fe27b8</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GetEmprestimo</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>23.4</ToolVersion>
+    <ToolVersionStringLiteral>23.4</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2023-12-20 15:07:11</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>8f8099374a5d40f380b9196b7c9b4ffb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-03:00:00</Timezone>
+      <Locale>português (Brasil)</Locale>
+      <User>Fernanda Zimmer</User>
+      <CpuInfo>Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>8072</TotalMemory>
+      <HostName>BN533771011</HostName>
+      <OSInfo>Windows 11 22H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Result18</ResultName>
+    <RunStartTime>2023-12-20 15:07:11</RunStartTime>
+    <Timezone>-03:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>23.4</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>23.4</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

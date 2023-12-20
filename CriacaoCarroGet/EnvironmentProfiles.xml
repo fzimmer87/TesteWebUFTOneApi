@@ -32,7 +32,7 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\Fernanda Zimmer\Desktop\Teste\CriacaoCarroGet</SystemProfile>
+    <SystemProfile>C:\Fernanda\UFTOne-API\CriacaoCarroGet</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>19/12/2023 14:59:56</SystemProfile>
+    <SystemProfile>20/12/2023 14:54:52</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>

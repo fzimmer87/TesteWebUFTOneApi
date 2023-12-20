@@ -46,14 +46,14 @@
     	int reportLevelInTree;
         HP.ST.Fwk.ReportCreator.QTPEngine.QTPEngineReportCreator reportCreator;
     	
-    	public BindDirection bind_dir180 = null;
-        public BindDirection bind_dir181 = null;
+    	public BindDirection bind_dir126 = null;
+        public BindDirection bind_dir127 = null;
         public HP.ST.Ext.BasicActivities.DataCursorActivity DataCursorActivity11 = null;
-        public BindDirection bind_dir182 = null;
+        public BindDirection bind_dir128 = null;
         public HP.ST.Fwk.SOAReplayAPI.DataHandling.CursorMovementPolicy DataCursorActivity11_Policy = null;
-        public BindDirection bind_dir183 = null;
-        public BindDirection bind_dir184 = null;
-        public BindDirection bind_dir185 = null;
+        public BindDirection bind_dir129 = null;
+        public BindDirection bind_dir130 = null;
+        public BindDirection bind_dir131 = null;
         
         public IEnumerable<FeaturesGroup> LicensedFeatures
         {
@@ -166,13 +166,13 @@
             this.Activities.Add (_flow.Loop2);
             _flow.DataExporterActivity9.Comment = @"";
             _flow.DataExporterActivity9.IconPath = @"";
-            VTDPropertyInfoBase pi359 = new VTDPropertyInfoBase("OutTable");
-            VTDBaseGetter binding_getter180 = new VTDObjectGetter(pi359);
-            VTDPropertyInfoBase pi360 = new VTDPropertyInfoBase("Data");
-            VTDBaseSetter binding_setter180 = new VTDObjectSetter(pi360);
-            binding_setter180 = new StringFormaterDecorator(binding_setter180,"{Step.DataFetchActivity7.OutTable}");
-            bind_dir180 = new BindDirection(_flow.DataFetchActivity7,binding_getter180,binding_setter180,BindTargetType.ToInProperty);
-            _flow.DataExporterActivity9.InDirections.Add(bind_dir180);
+            VTDPropertyInfoBase pi251 = new VTDPropertyInfoBase("OutTable");
+            VTDBaseGetter binding_getter126 = new VTDObjectGetter(pi251);
+            VTDPropertyInfoBase pi252 = new VTDPropertyInfoBase("Data");
+            VTDBaseSetter binding_setter126 = new VTDObjectSetter(pi252);
+            binding_setter126 = new StringFormaterDecorator(binding_setter126,"{Step.DataFetchActivity7.OutTable}");
+            bind_dir126 = new BindDirection(_flow.DataFetchActivity7,binding_getter126,binding_setter126,BindTargetType.ToInProperty);
+            _flow.DataExporterActivity9.InDirections.Add(bind_dir126);
             this.Activities.Add (_flow.DataExporterActivity9);
             _flow.DataExporterCloseActivity10.Comment = @"";
             _flow.DataExporterCloseActivity10.IconPath = @"";
@@ -183,23 +183,23 @@
             this.Activities.Add (_flow.EndActivity3);
             _flow.DataDisconnectActivity8.Comment = @"";
             _flow.DataDisconnectActivity8.IconPath = @"";
-            VTDPropertyInfoBase pi361 = new VTDPropertyInfoBase("OutTable");
-            VTDBaseGetter binding_getter181 = new VTDObjectGetter(pi361);
-            VTDPropertyInfoBase pi362 = new VTDPropertyInfoBase("Data");
-            VTDBaseSetter binding_setter181 = new VTDObjectSetter(pi362);
-            binding_setter181 = new StringFormaterDecorator(binding_setter181,"{Step.DataFetchActivity7.OutTable}");
-            bind_dir181 = new BindDirection(_flow.DataFetchActivity7,binding_getter181,binding_setter181,BindTargetType.ToInProperty);
-            _flow.DataDisconnectActivity8.InDirections.Add(bind_dir181);
+            VTDPropertyInfoBase pi253 = new VTDPropertyInfoBase("OutTable");
+            VTDBaseGetter binding_getter127 = new VTDObjectGetter(pi253);
+            VTDPropertyInfoBase pi254 = new VTDPropertyInfoBase("Data");
+            VTDBaseSetter binding_setter127 = new VTDObjectSetter(pi254);
+            binding_setter127 = new StringFormaterDecorator(binding_setter127,"{Step.DataFetchActivity7.OutTable}");
+            bind_dir127 = new BindDirection(_flow.DataFetchActivity7,binding_getter127,binding_setter127,BindTargetType.ToInProperty);
+            _flow.DataDisconnectActivity8.InDirections.Add(bind_dir127);
             this.Activities.Add (_flow.DataDisconnectActivity8);
             this.DataCursorActivity11.Comment = @"";
             this.DataCursorActivity11.IconPath = @"";
-            VTDPropertyInfoBase pi363 = new VTDPropertyInfoBase("OutTable");
-            VTDBaseGetter binding_getter182 = new VTDObjectGetter(pi363);
-            VTDPropertyInfoBase pi364 = new VTDPropertyInfoBase("InTable");
-            VTDBaseSetter binding_setter182 = new VTDObjectSetter(pi364);
-            binding_setter182 = new StringFormaterDecorator(binding_setter182,"{Step.DataFetchActivity7.OutTable}");
-            bind_dir182 = new BindDirection(_flow.DataFetchActivity7,binding_getter182,binding_setter182,BindTargetType.ToInProperty);
-            this.DataCursorActivity11.InDirections.Add(bind_dir182);
+            VTDPropertyInfoBase pi255 = new VTDPropertyInfoBase("OutTable");
+            VTDBaseGetter binding_getter128 = new VTDObjectGetter(pi255);
+            VTDPropertyInfoBase pi256 = new VTDPropertyInfoBase("InTable");
+            VTDBaseSetter binding_setter128 = new VTDObjectSetter(pi256);
+            binding_setter128 = new StringFormaterDecorator(binding_setter128,"{Step.DataFetchActivity7.OutTable}");
+            bind_dir128 = new BindDirection(_flow.DataFetchActivity7,binding_getter128,binding_setter128,BindTargetType.ToInProperty);
+            this.DataCursorActivity11.InDirections.Add(bind_dir128);
             this.DataCursorActivity11_Policy.StartPosition = CursorStartPosition.FirstRecord;
             this.DataCursorActivity11_Policy.StartAtSpecificRow = 1;
             this.DataCursorActivity11_Policy.StartCondition.ColumnName = "";
@@ -263,20 +263,20 @@
 @"<RequestMultipartInfo><Type>Related</Type></RequestMultipartInfo>");
             _flow.HTTPActivity4.RequestMultipartInfoXml = HTTPActivity4_RequestMultipartInfoXml_Document;
             _flow.HTTPActivity4.Multipart=false;
-            VTDPropertyInfoBase pi365 = new VTDPropertyInfoBase("USERNAME");
-            VTDBaseGetter binding_getter183 = new VTDObjectGetter(pi365);
-            VTDPropertyInfoBase pi366 = new VTDPropertyInfoBase("XMLBody","/*[local-name(.)='Object'][1]/*[local-name(.)='username'][1]");
-            VTDBaseSetter binding_setter183 = new VTDJsonSetter(pi366,XmlTypeCode.String);
-            binding_setter183 = new StringFormaterDecorator(binding_setter183,"{DataSource.Login.USERNAME}");
-            bind_dir183 = new BindDirection(this.DataCursorActivity11,binding_getter183,binding_setter183,BindTargetType.ToInProperty);
-            _flow.HTTPActivity4.InDirections.Add(bind_dir183);
-            VTDPropertyInfoBase pi367 = new VTDPropertyInfoBase("PASSWORD");
-            VTDBaseGetter binding_getter184 = new VTDObjectGetter(pi367);
-            VTDPropertyInfoBase pi368 = new VTDPropertyInfoBase("XMLBody","/*[local-name(.)='Object'][1]/*[local-name(.)='password'][1]");
-            VTDBaseSetter binding_setter184 = new VTDJsonSetter(pi368,XmlTypeCode.String);
-            binding_setter184 = new StringFormaterDecorator(binding_setter184,"{DataSource.Login.PASSWORD}");
-            bind_dir184 = new BindDirection(this.DataCursorActivity11,binding_getter184,binding_setter184,BindTargetType.ToInProperty);
-            _flow.HTTPActivity4.InDirections.Add(bind_dir184);
+            VTDPropertyInfoBase pi257 = new VTDPropertyInfoBase("USERNAME");
+            VTDBaseGetter binding_getter129 = new VTDObjectGetter(pi257);
+            VTDPropertyInfoBase pi258 = new VTDPropertyInfoBase("XMLBody","/*[local-name(.)='Object'][1]/*[local-name(.)='username'][1]");
+            VTDBaseSetter binding_setter129 = new VTDJsonSetter(pi258,XmlTypeCode.String);
+            binding_setter129 = new StringFormaterDecorator(binding_setter129,"{DataSource.Login.USERNAME}");
+            bind_dir129 = new BindDirection(this.DataCursorActivity11,binding_getter129,binding_setter129,BindTargetType.ToInProperty);
+            _flow.HTTPActivity4.InDirections.Add(bind_dir129);
+            VTDPropertyInfoBase pi259 = new VTDPropertyInfoBase("PASSWORD");
+            VTDBaseGetter binding_getter130 = new VTDObjectGetter(pi259);
+            VTDPropertyInfoBase pi260 = new VTDPropertyInfoBase("XMLBody","/*[local-name(.)='Object'][1]/*[local-name(.)='password'][1]");
+            VTDBaseSetter binding_setter130 = new VTDJsonSetter(pi260,XmlTypeCode.String);
+            binding_setter130 = new StringFormaterDecorator(binding_setter130,"{DataSource.Login.PASSWORD}");
+            bind_dir130 = new BindDirection(this.DataCursorActivity11,binding_getter130,binding_setter130,BindTargetType.ToInProperty);
+            _flow.HTTPActivity4.InDirections.Add(bind_dir130);
             XmlDocument HTTPActivity4_ExpectedResponseXmlBody_Document = new XmlDocument();
             HTTPActivity4_ExpectedResponseXmlBody_Document.PreserveWhitespace = true;
             HTTPActivity4_ExpectedResponseXmlBody_Document.LoadXml(
@@ -292,12 +292,12 @@
             HTTPActivity4_ExpectedOutputProperties_Document.LoadXml(
 @"<Arguments><ResponseHttpVersion /><StatusCode>200</StatusCode><StatusDescription /><ResponseBody /><ResponseBodyAsBase64 /></Arguments>");
             _flow.HTTPActivity4.ExpectedOutputProperties = HTTPActivity4_ExpectedOutputProperties_Document;
-            VTDPropertyInfoBase pi369 = new VTDPropertyInfoBase("USERNAME");
-            VTDBaseGetter binding_getter185 = new VTDObjectGetter(pi369);
-            VTDPropertyInfoBase pi370 = new VTDPropertyInfoBase("XMLResponse","/*[local-name(.)='Object'][1]/*[local-name(.)='username'][1]");
-            VTDBaseSetter binding_setter185 = new VTDCheckpointSetter(XmlTypeCode.String);
-            binding_setter185 = new StringFormaterDecorator(binding_setter185,"{DataSource.Login.USERNAME}");
-            bind_dir185 = new BindDirection(this.DataCursorActivity11,binding_getter185,binding_setter185,BindTargetType.ToInProperty);
+            VTDPropertyInfoBase pi261 = new VTDPropertyInfoBase("USERNAME");
+            VTDBaseGetter binding_getter131 = new VTDObjectGetter(pi261);
+            VTDPropertyInfoBase pi262 = new VTDPropertyInfoBase("XMLResponse","/*[local-name(.)='Object'][1]/*[local-name(.)='username'][1]");
+            VTDBaseSetter binding_setter131 = new VTDCheckpointSetter(XmlTypeCode.String);
+            binding_setter131 = new StringFormaterDecorator(binding_setter131,"{DataSource.Login.USERNAME}");
+            bind_dir131 = new BindDirection(this.DataCursorActivity11,binding_getter131,binding_setter131,BindTargetType.ToInProperty);
             set_HTTPActivity4_checkpoints(_flow.HTTPActivity4);
             
         }

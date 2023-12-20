@@ -47,7 +47,7 @@ namespace Script
             CpValObj valueActualObject2 = new CpValObj(actualBindDirection2, XmlTypeCode.String, false);
 
 
-            CpValObj valueExpectedObject2 = new CpValObj("{DataSource.Teste.Column1}", bind_dir158);
+            CpValObj valueExpectedObject2 = new CpValObj("{DataSource.excelForward!Emprestimo.FIRSTNAME}", bind_dir104);
             ValueCPRule cpRule2 = new ValueCPRule(valueActualObject2, valueExpectedObject2, StringCP.EqualTo, "=", false);
             activity.AddCheckpointRule(cpRule2);
 
@@ -58,7 +58,7 @@ namespace Script
             CpValObj valueActualObject3 = new CpValObj(actualBindDirection3, XmlTypeCode.String, false);
 
 
-            CpValObj valueExpectedObject3 = new CpValObj("{DataSource.Teste.Column2}", bind_dir159);
+            CpValObj valueExpectedObject3 = new CpValObj("{DataSource.excelForward!Emprestimo.LASTNAME}", bind_dir105);
             ValueCPRule cpRule3 = new ValueCPRule(valueActualObject3, valueExpectedObject3, StringCP.EqualTo, "=", false);
             activity.AddCheckpointRule(cpRule3);
 
@@ -69,7 +69,7 @@ namespace Script
             CpValObj valueActualObject4 = new CpValObj(actualBindDirection4, XmlTypeCode.String, false);
 
 
-            CpValObj valueExpectedObject4 = new CpValObj("{DataSource.Teste.Column3}", bind_dir160);
+            CpValObj valueExpectedObject4 = new CpValObj("{DataSource.excelForward!Emprestimo.USERNAME}", bind_dir106);
             ValueCPRule cpRule4 = new ValueCPRule(valueActualObject4, valueExpectedObject4, StringCP.EqualTo, "=", false);
             activity.AddCheckpointRule(cpRule4);
 

@@ -1,18 +1,18 @@
-2023-12-19 11:42:33,380 [1] INFO  - Loaded appender: FileAppenderInternal
-2023-12-19 11:42:33,402 [1] INFO  - Loaded appender: FileAppenderExternal
-2023-12-19 11:42:33,402 [1] INFO  - Loaded appender: UserLoggerAppender
-2023-12-19 11:42:33,404 [1] INFO  - Loaded appender: FileAppenderInternal
-2023-12-19 11:42:33,404 [1] INFO  - Loaded appender: FileAppenderExternal
-2023-12-19 11:42:33,405 [1] INFO  - Loaded appender: UserLoggerAppender
-2023-12-19 11:42:33,783 [9] INFO  - Step 'Start' : Step 'Start' started
-2023-12-19 11:42:33,812 [9] INFO  - Step 'Start' ended successfully
-2023-12-19 11:42:33,816 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
-2023-12-19 11:42:33,852 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
-2023-12-19 11:42:33,853 [9] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
-2023-12-19 11:42:33,871 [9] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/register'
-2023-12-19 11:42:34,124 [9] INFO  - Step 'HTTP Request4' : Server returned status code: 200
-2023-12-19 11:42:34,127 [9] INFO  - Step 'HTTP Request4' : HTTP Raw request:
-2023-12-19 11:42:34,128 [9] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/register 1.1
+2023-12-20 15:02:16,230 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-12-20 15:02:16,248 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-12-20 15:02:16,248 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-12-20 15:02:16,249 [1] INFO  - Loaded appender: FileAppenderInternal
+2023-12-20 15:02:16,249 [1] INFO  - Loaded appender: FileAppenderExternal
+2023-12-20 15:02:16,249 [1] INFO  - Loaded appender: UserLoggerAppender
+2023-12-20 15:02:16,881 [9] INFO  - Step 'Start' : Step 'Start' started
+2023-12-20 15:02:16,910 [9] INFO  - Step 'Start' ended successfully
+2023-12-20 15:02:16,914 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2023-12-20 15:02:16,999 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2023-12-20 15:02:17,002 [9] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
+2023-12-20 15:02:17,025 [9] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/register'
+2023-12-20 15:02:17,413 [9] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2023-12-20 15:02:17,415 [9] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2023-12-20 15:02:17,418 [9] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/register 1.1
 Content-Type: application/json
 Host: localhost:3434
 Content-Length: 106
@@ -24,24 +24,24 @@ Connection: Keep-Alive
   "password": "1234"
 }
 
-2023-12-19 11:42:34,130 [9] INFO  - Step 'HTTP Request4' : HTTP Raw response:
-2023-12-19 11:42:34,133 [9] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+2023-12-20 15:02:17,421 [9] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2023-12-20 15:02:17,423 [9] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
 X-Application-Context: application:production:3434
 Transfer-Encoding: chunked
 Content-Type: application/json;charset=UTF-8
-Date: Tue, 19 Dec 2023 14:42:34 GMT
+Date: Wed, 20 Dec 2023 18:02:17 GMT
 Server: Apache-Coyote/1.1
 ["status: success"]
-2023-12-19 11:42:34,142 [9] INFO  - Checkpoint 0: "200" = "200" passed
-2023-12-19 11:42:34,144 [9] INFO  - Checkpoint 1: "["status: success"]" Contains "status: success" passed
-2023-12-19 11:42:34,152 [9] INFO  - Step 'HTTP Request4' ended successfully
-2023-12-19 11:42:34,154 [9] INFO  - Step 'Iteration 1' ended successfully
-2023-12-19 11:42:34,170 [9] INFO  - Step 'Iteration 2' : Step 'Iteration 2' started
-2023-12-19 11:42:34,173 [9] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
-2023-12-19 11:42:34,176 [9] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/register'
-2023-12-19 11:42:34,360 [9] INFO  - Step 'HTTP Request4' : Server returned status code: 200
-2023-12-19 11:42:34,363 [9] INFO  - Step 'HTTP Request4' : HTTP Raw request:
-2023-12-19 11:42:34,365 [9] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/register 1.1
+2023-12-20 15:02:17,434 [9] INFO  - Checkpoint 0: "200" = "200" passed
+2023-12-20 15:02:17,437 [9] INFO  - Checkpoint 1: "["status: success"]" Contains "status: success" passed
+2023-12-20 15:02:17,443 [9] INFO  - Step 'HTTP Request4' ended successfully
+2023-12-20 15:02:17,446 [9] INFO  - Step 'Iteration 1' ended successfully
+2023-12-20 15:02:17,463 [9] INFO  - Step 'Iteration 2' : Step 'Iteration 2' started
+2023-12-20 15:02:17,465 [9] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
+2023-12-20 15:02:17,469 [9] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/register'
+2023-12-20 15:02:17,645 [9] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2023-12-20 15:02:17,646 [9] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2023-12-20 15:02:17,648 [9] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/register 1.1
 Content-Type: application/json
 Host: localhost:3434
 Content-Length: 101
@@ -52,24 +52,24 @@ Content-Length: 101
   "password": "1234"
 }
 
-2023-12-19 11:42:34,367 [9] INFO  - Step 'HTTP Request4' : HTTP Raw response:
-2023-12-19 11:42:34,370 [9] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+2023-12-20 15:02:17,650 [9] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2023-12-20 15:02:17,653 [9] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
 X-Application-Context: application:production:3434
 Transfer-Encoding: chunked
 Content-Type: application/json;charset=UTF-8
-Date: Tue, 19 Dec 2023 14:42:34 GMT
+Date: Wed, 20 Dec 2023 18:02:17 GMT
 Server: Apache-Coyote/1.1
 ["status: success"]
-2023-12-19 11:42:34,371 [9] INFO  - Checkpoint 0: "200" = "200" passed
-2023-12-19 11:42:34,374 [9] INFO  - Checkpoint 1: "["status: success"]" Contains "status: success" passed
-2023-12-19 11:42:34,380 [9] INFO  - Step 'HTTP Request4' ended successfully
-2023-12-19 11:42:34,384 [9] INFO  - Step 'Iteration 2' ended successfully
-2023-12-19 11:42:34,389 [9] INFO  - Step 'Iteration 3' : Step 'Iteration 3' started
-2023-12-19 11:42:34,392 [9] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
-2023-12-19 11:42:34,396 [9] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/register'
-2023-12-19 11:42:34,584 [9] INFO  - Step 'HTTP Request4' : Server returned status code: 200
-2023-12-19 11:42:34,587 [9] INFO  - Step 'HTTP Request4' : HTTP Raw request:
-2023-12-19 11:42:34,590 [9] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/register 1.1
+2023-12-20 15:02:17,654 [9] INFO  - Checkpoint 0: "200" = "200" passed
+2023-12-20 15:02:17,657 [9] INFO  - Checkpoint 1: "["status: success"]" Contains "status: success" passed
+2023-12-20 15:02:17,659 [9] INFO  - Step 'HTTP Request4' ended successfully
+2023-12-20 15:02:17,662 [9] INFO  - Step 'Iteration 2' ended successfully
+2023-12-20 15:02:17,665 [9] INFO  - Step 'Iteration 3' : Step 'Iteration 3' started
+2023-12-20 15:02:17,667 [9] INFO  - Step 'HTTP Request4' : Step 'HTTP Request4' started
+2023-12-20 15:02:17,670 [9] INFO  - Step 'HTTP Request4' : Fetching HTTP Url: 'http://localhost:3434/cars-app/register'
+2023-12-20 15:02:17,853 [9] INFO  - Step 'HTTP Request4' : Server returned status code: 200
+2023-12-20 15:02:17,855 [9] INFO  - Step 'HTTP Request4' : HTTP Raw request:
+2023-12-20 15:02:17,858 [9] INFO  - Step 'HTTP Request4' : POST http://localhost:3434/cars-app/register 1.1
 Content-Type: application/json
 Host: localhost:3434
 Content-Length: 103
@@ -80,18 +80,18 @@ Content-Length: 103
   "password": "1234"
 }
 
-2023-12-19 11:42:34,593 [9] INFO  - Step 'HTTP Request4' : HTTP Raw response:
-2023-12-19 11:42:34,595 [9] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
+2023-12-20 15:02:17,861 [9] INFO  - Step 'HTTP Request4' : HTTP Raw response:
+2023-12-20 15:02:17,863 [9] INFO  - Step 'HTTP Request4' : HTTP/1.1 200 OK
 X-Application-Context: application:production:3434
 Transfer-Encoding: chunked
 Content-Type: application/json;charset=UTF-8
-Date: Tue, 19 Dec 2023 14:42:34 GMT
+Date: Wed, 20 Dec 2023 18:02:17 GMT
 Server: Apache-Coyote/1.1
 ["status: success"]
-2023-12-19 11:42:34,597 [9] INFO  - Checkpoint 0: "200" = "200" passed
-2023-12-19 11:42:34,599 [9] INFO  - Checkpoint 1: "["status: success"]" Contains "status: success" passed
-2023-12-19 11:42:34,603 [9] INFO  - Step 'HTTP Request4' ended successfully
-2023-12-19 11:42:34,605 [9] INFO  - Step 'Iteration 3' ended successfully
-2023-12-19 11:42:34,608 [9] INFO  - Step 'Test Flow' ended successfully
-2023-12-19 11:42:35,099 [9] INFO  - Step 'End' : Step 'End' started
-2023-12-19 11:42:35,114 [9] INFO  - Step 'End' ended successfully
+2023-12-20 15:02:17,865 [9] INFO  - Checkpoint 0: "200" = "200" passed
+2023-12-20 15:02:17,867 [9] INFO  - Checkpoint 1: "["status: success"]" Contains "status: success" passed
+2023-12-20 15:02:17,870 [9] INFO  - Step 'HTTP Request4' ended successfully
+2023-12-20 15:02:17,872 [9] INFO  - Step 'Iteration 3' ended successfully
+2023-12-20 15:02:17,875 [9] INFO  - Step 'Test Flow' ended successfully
+2023-12-20 15:02:33,867 [9] INFO  - Step 'End' : Step 'End' started
+2023-12-20 15:02:33,901 [9] INFO  - Step 'End' ended successfully
